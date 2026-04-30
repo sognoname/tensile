@@ -53,7 +53,7 @@ body:not(.home)::before {
     position: fixed;
     inset: -8% -12%;
     z-index: -2;
-    background-image: url("images/industrial-background.png");
+    background-image: url("images/industrial-background.jpg");
     background-size: cover;
     background-position: center;
     filter: grayscale(0.05) hue-rotate(205deg) saturate(1.08) contrast(1.16) brightness(0.66);
@@ -657,7 +657,7 @@ body.home::before {
     position: fixed;
     inset: -6% -12%;
     z-index: -2;
-    background-image: url("images/industrial-background.png");
+    background-image: url("images/industrial-background.jpg");
     background-size: cover;
     background-position: center;
     filter: grayscale(0.1) hue-rotate(205deg) saturate(1.05) contrast(1.12) brightness(0.82);
@@ -1127,7 +1127,7 @@ body.home::after {
     background:
         linear-gradient(90deg, rgba(5, 22, 38, 0.92) 0%, rgba(10, 61, 98, 0.78) 42%, rgba(10, 61, 98, 0.22) 100%),
         linear-gradient(180deg, rgba(10, 61, 98, 0.12), rgba(5, 22, 38, 0.54)),
-        url('images/hero-montaz-polaczenia-sprezane.png') center / cover no-repeat;
+        url('images/hero-montaz-polaczenia-sprezane.jpg') center / cover no-repeat;
 }
 
 .subpage-hero.hero-spawalnictwo {
@@ -1147,7 +1147,7 @@ body.home::after {
     background:
         linear-gradient(90deg, rgba(5, 22, 38, 0.92) 0%, rgba(10, 61, 98, 0.78) 44%, rgba(10, 61, 98, 0.18) 100%),
         linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(5, 22, 38, 0.5)),
-        url('images/konstrukcje-specjalne-4.png') center / cover no-repeat;
+        url('images/konstrukcje-specjalne-4.jpg') center / cover no-repeat;
 }
 
 .subpage-hero.hero-prace-terenowe {
@@ -1157,7 +1157,7 @@ body.home::after {
     background:
         linear-gradient(90deg, rgba(5, 22, 38, 0.93) 0%, rgba(10, 61, 98, 0.78) 44%, rgba(10, 61, 98, 0.2) 100%),
         linear-gradient(180deg, rgba(10, 61, 98, 0.08), rgba(5, 22, 38, 0.58)),
-        url('images/prace-terenowe-1.png') center / cover no-repeat;
+        url('images/prace-terenowe-1.jpg') center / cover no-repeat;
 }
 
 .subpage-hero.hero-polaczenia .back-link,
@@ -2376,21 +2376,21 @@ body.home::after {
     background:
         linear-gradient(90deg, rgba(5, 22, 38, 0.94) 0%, rgba(10, 61, 98, 0.78) 48%, rgba(10, 61, 98, 0.2) 100%),
         linear-gradient(180deg, rgba(10, 61, 98, 0.08), rgba(5, 22, 38, 0.62)),
-        url('images/hero-podnosniki-koszowe.png') center / cover no-repeat;
+        url('images/hero-podnosniki-koszowe.jpg') center / cover no-repeat;
 }
 
 .subpage-hero.excavator-hero {
     background:
         linear-gradient(90deg, rgba(5, 22, 38, 0.94) 0%, rgba(10, 61, 98, 0.78) 48%, rgba(10, 61, 98, 0.2) 100%),
         linear-gradient(180deg, rgba(10, 61, 98, 0.08), rgba(5, 22, 38, 0.62)),
-        url('images/hero-minikoparka.png') center / cover no-repeat;
+        url('images/hero-minikoparka.jpg') center / cover no-repeat;
 }
 
 .subpage-hero.height-hero {
     background:
         linear-gradient(90deg, rgba(5, 22, 38, 0.94) 0%, rgba(10, 61, 98, 0.78) 48%, rgba(10, 61, 98, 0.2) 100%),
         linear-gradient(180deg, rgba(10, 61, 98, 0.08), rgba(5, 22, 38, 0.62)),
-        url('images/hero-prace-wysokosciowe.png') center / cover no-repeat;
+        url('images/hero-prace-wysokosciowe.jpg') center / cover no-repeat;
 }
 
 .access-focus {
@@ -2602,7 +2602,7 @@ body.premium-home::after {
     position: absolute;
     inset: 0;
     z-index: -3;
-    background-image: url("images/premium-real-steel.png");
+    background-image: url("images/premium-real-steel.jpg");
     background-size: cover;
     background-position: center;
     filter: var(--photo-blue-filter);
@@ -3590,40 +3590,40 @@ body.premium-home::after {
 }
 
 .pillar-grid .pillar-menu a {
-    --branch-image: url('images/thumb-spawalnictwo.png');
+    --branch-image: url('images/thumb-spawalnictwo.jpg');
 }
 
 .pillar-grid .pillar-card:nth-child(1) .pillar-menu a:nth-child(1) {
-    --branch-image: url('images/spawalnictwo.png');
+    --branch-image: url('images/spawalnictwo.jpg');
 }
 
 .pillar-grid .pillar-card:nth-child(1) .pillar-menu a:nth-child(2) {
-    --branch-image: url('images/montaz.png');
+    --branch-image: url('images/montaz.jpg');
 }
 
 .pillar-grid .pillar-card:nth-child(1) .pillar-menu a:nth-child(3) {
-    --branch-image: url('images/serwis.png');
+    --branch-image: url('images/serwis.jpg');
 }
 
 .pillar-grid .pillar-card:nth-child(2) .pillar-menu a:nth-child(1) {
-    --branch-image: url('images/podnosniki.png');
+    --branch-image: url('images/podnosniki.jpg');
 }
 
 .pillar-grid .pillar-card:nth-child(2) .pillar-menu a:nth-child(2) {
-    --branch-image: url('images/minikoparkaa.png');
+    --branch-image: url('images/minikoparkaa.jpg');
 }
 
 .pillar-grid .pillar-card:nth-child(2) .pillar-menu a:nth-child(3) {
-    --branch-image: url('images/prace.png');
+    --branch-image: url('images/prace.jpg');
 }
 
 .pillar-grid .pillar-card:nth-child(3) .pillar-menu a:nth-child(1) {
-    --branch-image: url('images/membranyy.png');
+    --branch-image: url('images/membranyy.jpg');
 }
 
 .pillar-grid .pillar-card:nth-child(3) .pillar-menu a:nth-child(2),
 .pillar-grid .pillar-card:nth-child(3) .pillar-menu a:nth-child(3) {
-    --branch-image: url('images/zadaszenia.png');
+    --branch-image: url('images/zadaszenia.jpg');
 }
 
 .pillar-grid .pillar-menu a {
@@ -3646,6 +3646,7 @@ body.premium-home::after {
     line-height: 0;
     overflow: visible;
     position: relative;
+    cursor: pointer;
     border-color: rgba(120, 169, 205, 0.28);
     box-shadow:
         0 14px 34px rgba(10, 61, 98, 0.13),
@@ -3654,36 +3655,45 @@ body.premium-home::after {
     transform: translateY(0) translateZ(0);
 }
 
+.pillar-grid .pillar-menu a::before {
+    content: none;
+}
+
 .pillar-grid .pillar-menu a::after {
-    content: 'OTWORZ';
+    content: 'OTWORZ  \2192';
     position: absolute;
     left: 50%;
-    bottom: -38px;
+    bottom: -40px;
     z-index: 4;
     display: block;
     width: auto;
     height: auto;
-    min-width: 104px;
+    min-width: 118px;
     box-sizing: border-box;
     order: initial;
-    padding: 9px 15px;
+    padding: 10px 18px 11px;
     pointer-events: none;
-    border: 1px solid rgba(46, 134, 222, 0.64);
+    border: 1px solid rgba(116, 196, 255, 0.72);
     background:
-        linear-gradient(180deg, rgba(46, 134, 222, 0.98), rgba(10, 61, 98, 0.98));
+        linear-gradient(110deg, #0A3D62 0%, #2E86DE 42%, #74C4FF 50%, #2E86DE 58%, #0A3D62 100%);
+    background-size: 240% 100%;
+    background-position: 0 0;
     color: #ffffff;
-    font-size: 10px;
+    font-size: 11px;
     line-height: 1;
     font-weight: 900;
-    letter-spacing: 1px;
+    letter-spacing: 1.4px;
     text-transform: uppercase;
     text-align: center;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.28);
+    clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%);
     box-shadow:
-        0 14px 28px rgba(10, 61, 98, 0.24),
-        0 0 24px rgba(46, 134, 222, 0.22);
+        0 16px 32px rgba(10, 61, 98, 0.28),
+        0 0 0 1px rgba(255, 255, 255, 0.28) inset,
+        0 0 26px rgba(46, 134, 222, 0.28);
     opacity: 0;
-    transform: translate(-50%, -8px) scale(0.94);
-    transition: opacity 0.24s ease, transform 0.24s ease, box-shadow 0.24s ease;
+    transform: translate(-50%, -14px) scale(0.88);
+    transition: opacity 0.24s ease, transform 0.3s cubic-bezier(0.2, 0.9, 0.2, 1), box-shadow 0.24s ease;
 }
 
 .pillar-grid .pillar-menu a:hover {
@@ -3699,9 +3709,11 @@ body.premium-home::after {
     filter: saturate(1.16) contrast(1.08) brightness(1.04);
 }
 
-.pillar-grid .pillar-menu a:hover::after {
+.pillar-grid .pillar-menu a:hover::after,
+.pillar-grid .pillar-menu a:focus-visible::after {
     opacity: 1;
     transform: translate(-50%, 0) scale(1);
+    animation: openButtonGlow 1.65s ease-in-out infinite, openButtonSweep 2.4s linear infinite;
 }
 
 @media (min-width: 1181px) {
@@ -4006,7 +4018,7 @@ body.premium-home::after {
     background:
         linear-gradient(90deg, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.86)),
         linear-gradient(135deg, rgba(10, 61, 98, 0.34), rgba(46, 134, 222, 0.2)),
-        url("images/premium-real-steel.png") center / cover no-repeat;
+        url("images/premium-real-steel.jpg") center / cover no-repeat;
     background-blend-mode: normal, color, luminosity;
     position: relative;
     overflow: hidden;
@@ -4307,6 +4319,26 @@ body.premium-home::after {
     0%, 42% { background-position: -160% 0, 0 0; }
     58% { background-position: 70% 0, 0 0; }
     100% { background-position: 180% 0, 0 0; }
+}
+
+@keyframes openButtonGlow {
+    0%, 100% {
+        box-shadow:
+            0 16px 32px rgba(10, 61, 98, 0.28),
+            0 0 0 1px rgba(255, 255, 255, 0.28) inset,
+            0 0 24px rgba(46, 134, 222, 0.28);
+    }
+    50% {
+        box-shadow:
+            0 20px 40px rgba(10, 61, 98, 0.34),
+            0 0 0 1px rgba(255, 255, 255, 0.42) inset,
+            0 0 42px rgba(46, 134, 222, 0.56);
+    }
+}
+
+@keyframes openButtonSweep {
+    from { background-position: 0 0; }
+    to { background-position: 240% 0; }
 }
 
 @keyframes pillarStableIn {
